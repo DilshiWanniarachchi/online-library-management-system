@@ -1,0 +1,16 @@
+.AN { /* References:- w3schools.com */
+    box-align: center;
+    color: yellow;
+    font-family: 'Alfa Slab One';
+    font-size: 32px;
+}
+
+    .AN :hover {
+        background: rgb(227, 252, 5);
+        color: rgb(6, 6, 87);
+        transition: all 0.8s linear; /*transition time*/
+    }
+
+* {
+    box-sizing: border-box;
+}

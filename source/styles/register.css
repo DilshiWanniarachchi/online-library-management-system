@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box
+}
+
+/* Add padding to containers */
+.reg_box {
+    padding: 100px;
+    background-color: lightblue;
+    border-color: black;
+    border: 30px;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 20), 0 4px 10px 4px rgba(0, 0, 0, 20);
+}
+
+    .reg_box h1 {
+        text-align: center;
+    }
+    .reg_box p{
+        color:slategray;
+    }
+
+/* Full-width input fields */
+[type=text], input[type=password], input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius:15px;
+    border: none;
+    background: #f1f1f1;
+}
+
+    input[type=text]:focus, input[type=password]:focus, input[type=tel]:focus {
+        background-color: #ddd;
+        outline: none;
+        
+    }
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+    
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius:15px;
+}
+
+    .registerbtn:hover {
+        opacity: 5;
+       
+    }
+
+/* Add a blue text color to links */
+a {
+    color: blue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    width:100%;
+    border-radius:15px;
+}
+
+
+/*-----------------payment-----------------------*/
+
+
+.payment{
+    
+   margin-bottom:5%
+
+}
+.meth {
+    position: center;
+    overflow: hidden;
+    display: inline-block;
+    background-color: Highlight;
+    border-radius: 5px;
+    height: 100px;
+    width: 25%;
+    margin: 20px;
+    transition: all 0.8s linear;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 20), 0 1px 1px 0 rgba(0, 0, 0, 20);
+}
+
+#meth1 h2{
+    color:white;
+}
+
+#meth1 h3{
+    color:black;
+    font-weight:bold;
+}
+
+.select, .meth:hover {
+    background-color: #666;
+    color: white;
+}

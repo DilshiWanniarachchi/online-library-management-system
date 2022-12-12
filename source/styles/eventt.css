@@ -1,0 +1,154 @@
+body {
+    background-image: url("../images/bcc3.jpg");
+    background-position: center;
+}
+
+
+
+
+.evbar {
+    background: rgb(180, 210, 245);                             /* Fallback color */
+    background: rgba(245, 242, 244, 0.534);                     /*opacity/transparent ratio*/
+    color: black;
+    padding-top: 3px;
+    
+    width: 98.8%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    
+}
+
+.whole {
+    color:white;
+    width: 100%;
+    background: rgba(0, 17, 255, 0.938);                            /* Fallback color */
+    background: rgba(76, 0, 255, 0.733);                            /* opacity/transparent ratio */
+    border-radius:6px;
+}
+
+
+.des{
+    font-size: 25px;
+
+}
+
+
+
+/* --------------------------------------------------------------------- */
+
+.footer {
+    padding: 40px;
+    border-color: black;
+    border-width: thick;
+    border-style: groove;
+    text-align: center;
+    display: block;
+    background: rgb(0, 0, 0);                                       /* Fallback color */
+    background: rgba(0, 0, 0, 0.7);                                 /* opacity/transparent ratio */
+}
+
+#foot1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.logo2 {
+   
+    left: 0;
+    float:left;
+    width:100px;
+    height:90px;
+}
+#fname {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+#fname2 {
+    font-size: 11px;
+    font-style: normal;
+  
+}
+
+/* ---------------------style social media icons----------------------- */
+/* References:- w3schools.com */
+
+/* Add a hover effect if you want */
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+    padding: 10px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+	float: right;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+	float: right;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #125688;
+    color: white;
+
+    padding: 10px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+	float: right;
+}
+
+
+form.submit input[type=text] {                                  /* To manage the newsletter bar */
+    width: 600px;                                               /* Change the width of the newsletter  bar */
+    height: 40px;                                               /* Change the height of the newsletter  bar */
+    border-radius: 50px;
+    margin-top: -30px;
+    margin-right: 16px;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: left;                                            /* Align the text inside the newsletter bar to the lef */
+    border: 1px solid #ccc;
+    margin: -149px;                                              /*Space between the search bar and the search button*/
+   
+}
+
+/* Style the submit button */
+form.submit button {
+    width: 10%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;                                            /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 50px;
+    left: 50px;
+   
+}

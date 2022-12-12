@@ -1,0 +1,58 @@
+/*---------References : w3schools------*/
+body, html {
+    height: 100%;
+    margin: 0;
+  
+  }
+  
+  .bgimg {
+    background-image: url("../images/OnlineEvents.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    padding: 20px;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+
+/*---------References : w3schools------*/
+  .M {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: M 1s ease-in-out infinite alternate;
+
+  }
+
+  /*---------References : w3schools------*/
+@-webkit-keyframes M {
+    from {
+      text-shadow: 0 0 10px rgb(27, 4, 43), 0 0 20px rgb(26, 5, 82), 0 0 30px #05195a, 0 0 40px #0b1f63, 0 0 50px #1d0e63, 0 0 60px #0a1047, 0 0 70px #040731;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }

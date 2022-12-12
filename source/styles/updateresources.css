@@ -1,0 +1,36 @@
+﻿.main {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border: 3px;
+    background-color: white;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+/* ------------------------------------------------------------------ */
+
+
+.btn {
+    padding: 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.anchor {
+    color: white;
+}
+

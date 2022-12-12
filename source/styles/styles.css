@@ -1,0 +1,277 @@
+﻿body {
+    background-image: url("../images/bc2.jpg");
+    background-position: center;
+ 
+}
+
+
+.bar { 
+    height: 230px;
+    width: 1250px;
+    padding-top:0.49%;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /*opacity/transparent ratio*/
+    border-radius:8px;
+    border-bott
+}
+
+
+form.search1 input[type=text] { /*To manage the search bar*/
+    width: 500px; /*Change the width of the search bar*/
+    height: 40px; /*Change the height of the search  bar*/
+    border-radius: 50px;
+    margin-top: -30px;
+    margin-right: 16px;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: left; /*Align the text inside the search bar to the left*/
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 500px; /*positioning of the search bar*/
+    margin: 0;
+  
+}
+
+/* Style the search button */
+form.search1 button {
+    width: 10%;
+    padding:9px;
+    padding-top:13px;
+    background-color:black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 50px;
+    position:absolute;
+    right:500px; /*positioning of the button*/
+   
+
+}
+
+
+#rec1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 4px;
+    
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#name {
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#name2 {
+    font-style: normal;
+    font-size: 30px;
+}
+.menu {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%; /* Full width */
+    float: inline-start;
+    display: flex; /*Navbar issue fixed*/
+    align-items: center;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+
+    .menu a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 19px 30px; /* Manage the dimensions of each cell block in nav bar*/
+        text-decoration: none;
+        font-size: large; /*Font size of the nav bar*/
+        transition: all 0.8s linear; /*transition time*/
+    }
+
+.menu a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.menu2 {
+    height: 235px;
+    width: 200.8px;
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    position: absolute;
+    top: 14px;
+    right: 7px;
+    padding-left: 0px;
+    border: 1px solid #333; /*Change the border-color and border width of the menu2*/
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.9);
+    border-radius:8px;
+}
+
+
+.menu2 a:hover {
+    background: #ddd;
+    color: black;
+}
+
+    .menu2 a {
+        display: block;
+        color:white; /*Text colour*/
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: large; /*Font size of the nav bar*/
+        padding-bottom: 43px;
+        padding-right: 60px;
+        font-size: large;
+        border-bottom: 1px solid white; /*Add a bottom border to inside the navbar to each block*/
+        transition: all 0.8s linear; /*transition time*/
+    }
+	
+	
+/* ----------------------------------------------------------- */
+
+.footer {
+    padding: 40px;
+    border-color: black;
+    border-width: thick;
+    border-style: groove;
+    text-align: center;
+    display: block;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+
+#foot1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.logo2 {
+   
+    left: 0;
+    float:left;
+    width:100px ;
+    height:90px;
+}
+#fname {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+#fname2 {
+    font-size: 11px;
+    font-style: normal;
+  
+}
+
+/* ---------------------style social media icons----------------------- */
+/* References:- w3schools.com */
+
+/* Add a hover effect if you want */
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+    padding: 10px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+	float: right;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+	float: right;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #125688;
+    color: white;
+
+    padding: 10px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+	float: right;
+}
+
+
+form.submit input[type=text] { /*To manage the newsletter bar*/
+    width: 600px; /*Change the width of the newsletter  bar*/
+    height: 40px; /*Change the height of the newsletter  bar*/
+    border-radius: 50px;
+    margin-top: -30px;
+    margin-right: 16px;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: left; /*Align the text inside the newsletter bar to the left*/
+    border: 1px solid #ccc;
+    margin: -149px; /*Space between the search bar and the search button*/
+   
+}
+
+/* Style the submit button */
+form.submit button {
+    width: 10%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 50px;
+    left: 50px;
+
+   
+}
+
+
+
+
+
+
+
+

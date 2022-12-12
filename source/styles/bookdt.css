@@ -1,0 +1,96 @@
+
+.main {
+    height: 690px;
+    width: 950px;
+    background-image: linear-gradient(brown, yellow);
+    position: center;
+	border-radius:8px;
+	background: rgba(255, 106, 0);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 100), 0 6px 20px 0 rgba(0, 0, 0, 100);
+
+}
+
+.bookimage img {
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+strong {
+    float: left;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    width: 450px;
+    padding: 10px;
+    border: 3px solid black;
+    margin-left: 190px;
+}
+
+.checked {
+    color: gold;
+}
+
+p {
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+p span {
+    color: blue;
+}
+
+.more {
+    color: Highlight;
+    cursor: pointer;
+}
+
+hr {
+    position: center;
+    border-color: black;
+    background: black;
+    width: 80%;
+}
+
+.btn button {
+    padding: 14px 18px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #ff0000;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 20), 0 2px 5px 0 rgba(0, 0, 0, 20);
+    transition: all 0.5s linear;
+}
+
+.btn button:hover {
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+
+.read {
+    float: left;
+    margin-left: 130px;
+}
+
+.download {
+    float: right;
+    margin-right: 130px;
+}
